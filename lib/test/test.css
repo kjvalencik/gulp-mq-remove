@@ -1,0 +1,35 @@
+h1 {
+	color: red;
+}
+
+@media (min-width: 970px) {
+	@media (min-width: 970px) and (min-width: 500px) {
+		h1 {
+			color: orange;
+		}
+		@media (min-width: 1200px) {
+			h1 {
+					color: black;
+			}
+		}
+	}
+	h1 {
+		color: white;
+	}
+	@media (min-width: 1200px) {
+		h1 {
+			color: black;
+		}
+		@media (min-width: 970px) {
+			h1 {
+				color: red;
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	h1 {
+		color: blue;
+	}
+}

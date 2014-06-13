@@ -1,0 +1,36 @@
+{
+  "name": "gulp-mq-remove",
+  "version": "0.0.1",
+  "description": "Remove all media queries, inlining a default one.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha lib/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kjvalencik/gulp-mq-remove.git"
+  },
+  "keywords": [
+    "css",
+    "media",
+    "query",
+    "gulpplugin"
+  ],
+  "author": "K.J. Valencik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjvalencik/gulp-mq-remove/issues"
+  },
+  "homepage": "https://github.com/kjvalencik/gulp-mq-remove",
+  "dependencies": {
+    "css": "^1.6.0",
+    "css-mediaquery": "^0.1.2",
+    "gulp-util": "^2.2.17",
+    "through2": "^0.5.1"
+  },
+  "devDependencies": {
+    "event-stream": "^3.1.5",
+    "mocha": "^1.20.1",
+    "vinyl": "^0.2.3"
+  }
+}
