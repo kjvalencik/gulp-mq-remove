@@ -1,6 +1,6 @@
 {
   "name": "gulp-mq-remove",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Remove all media queries, inlining a default one.",
   "main": "lib/index.js",
   "scripts": {
