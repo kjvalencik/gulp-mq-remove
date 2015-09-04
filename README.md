@@ -12,11 +12,13 @@ falling back to something like respond.js.
 
 ## Example
 
-	var gulp     = require("gulp"),
-		mqRemove = require("gulp-mq-remove");
+```js
+var gulp     = require("gulp"),
+    mqRemove = require("gulp-mq-remove");
 
-	gulp.task("ie8styles", function () {
-			return gulp.src("styles/**/*.css")
-				.pipe(mqRemove({ width: "1024px" }))
-				.pipe(gulp.dest("build"));
-		});
+gulp.task("ie8styles", function () {
+    return gulp.src("styles/**/*.css")
+        .pipe(mqRemove({ width: "1024px" }))
+        .pipe(gulp.dest("build"));
+});
+```
